@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body class="color-theme-black">
+	 <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+	
+			<section class="panel panel-left panel-cover">
+			<h3 class="block-title">Navigation</h3>
+			<div class="block">
+				<article class="list">
+					<ul>
+						<li>
+							<a href="/blush/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-shopping-cart"></i>
+								</div>
+								<div class="item-inner">
+								  Blush
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/eyeshadow/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-shopping-cart"></i>
+								</div>
+								<div class="item-inner">
+									Eyeshadow
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/#/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-shopping-cart"></i>
+								</div>
+								<div class="item-inner">
+								  Nail Polish
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/profile/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-user"></i>
+								</div>
+								<div class="item-inner">
+								  Profile
+								</div>
+							</a>
+						</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner"> 
+				<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+              <div class="title">Products</div>
+            </div>
+          </nav>
+ 		<div class="page-content">
+            <!--<h2 class="block-title">Titulo de Contenido</h2> <!-- Siempre los titulos seran block-title -->
+			 <!--<div class="block block-strong"> <!-- Siempre el contenido sera block -->
+			 	<!-- Texto de contenido
+			 </div>-->	
+			  <article class="hero-entrada">
+		<div class="overlay"></div>
+	</article>
+		 <article class="menu-entrada">
+		 Products
+		 </article>
+		 <article class="hero-blush">
+			 <a href="/blush/">
+		<div class="texto-menu">
+		<h2>Blush</h2>
+		</div>
+			 <div class="precio-menu">
+		$5.00
+		</div>
+			 </a>
+	</article>
+		 <article class="hero-eyeshadow">
+			 <a href="/eyeshadow/">
+		<div class="texto-menu">
+		<h2>Eyeshadow</h2>
+		</div>
+			 <div class="precio-menu">
+		$5.00
+		</div>
+			 </a>
+			 </article>
+			<article class="hero-nail">
+			 <a href="/nail/">
+		<div class="texto-menu">
+		<h2>Nail Polish</h2>
+			 </div>
+			<div class="row">
+		</div>
+			 <div class="precio-menu">
+		$5.00
+		</div>
+			 </a>
+		 </article>
+          </div>
+        </section>
+		  
+      </div>
+    </div>
+	
+	
+	  <article class="popup popup-confirm">
+		
+		<div class="view">
+			<div class="page">
+			  <div class="page-content">
+					
+					<div class="block">
+					
+						<div class="icon-done">
+							<i class="material-icons">done</i>
+						</div>
+						
+						<p>Your order is ready!</p>
+						
+						<div class="row">
+							<a href="/home/" class="link button button-fill btn-verde popup-close">Back to menu</a>
+							<a href="/combos/" class="link button btn-gris popup-close">Continue Shopping</a>
+						</div>
+						
+				  	</div>
+					
+			  </div>
+			</div>
+	
+	</article>
+		  
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>
+</body>
+</html>
